@@ -15,6 +15,6 @@
     <module name="FileLength" />
     <module name="FileTabCharacter" />
     <module name="Header">
-        <property name="header" value="////////////////////////////////////////////////////////////////////\n// [Filippo] [Panighello] [2111016]\n// [Riccardo] [Manisi] [????]\n////////////////////////////////////////////////////////////////////"/>
+        <property name="headerFile" value="license.txt"/>
     </module>
 </module>

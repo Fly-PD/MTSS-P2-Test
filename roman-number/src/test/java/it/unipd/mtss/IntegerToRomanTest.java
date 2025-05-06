@@ -35,5 +35,9 @@ public class IntegerToRomanTest {
         assertEquals("V", IntegerToRoman.convert(5));
     }
 
+    @Test
+    public void sei() {
+        assertEquals("VI", IntegerToRoman.convert(6));
+    }
 
 }

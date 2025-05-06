@@ -30,7 +30,10 @@ public class IntegerToRomanTest {
         assertEquals("IV", IntegerToRoman.convert(4));
     }
   
-
+    @Test
+    public void cinque() {
+        assertEquals("V", IntegerToRoman.convert(5));
+    }
 
 
 }

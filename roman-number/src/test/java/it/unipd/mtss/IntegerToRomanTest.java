@@ -1,6 +1,6 @@
 ////////////////////////////////////////////////////////////////////
 // [Filippo] [Panighello] [2111016]
-// [Riccardo] [Manisi] [????]
+// [Riccardo] [Manisi] [2111948]
 ////////////////////////////////////////////////////////////////////
 
 package it.unipd.mtss;
@@ -12,22 +12,36 @@ public class IntegerToRomanTest {
 
     @Test
     public void uno() {
-        assertEquals("I", IntegerToRoman.convert(1));
+        //arrange
+        int input = 1;
+        
+        //act 
+        String result = IntegerToRoman.convert(input);
+
+        //assert
+        assertEquals("I", result);
     }
     
     @Test
     public void due() {
-        assertEquals("II", IntegerToRoman.convert(2));
+        //arrange
+        int input = 2;
+        
+        //act 
+        String result = IntegerToRoman.convert(input);
+
+        //assert
+        assertEquals("II", result);
     }
 
     @Test
     public void tre() {
-        assertEquals("III", IntegerToRoman.convert(3));
+        //arrange
+        int input = 3;
+        //act
+        String result = IntegerToRoman.convert(input);
+        //assert
+        assertEquals("III", result);    
     }
-
-
-  
-
-
 
 }

@@ -25,7 +25,10 @@ public class IntegerToRomanTest {
         assertEquals("III", IntegerToRoman.convert(3));
     }
 
-
+    @Test
+    public void quattro() {
+        assertEquals("IV", IntegerToRoman.convert(4));
+    }
   
 
 

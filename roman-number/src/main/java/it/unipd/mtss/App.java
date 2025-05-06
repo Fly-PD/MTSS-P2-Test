@@ -5,7 +5,6 @@
 
 package it.unipd.mtss;
 
-import it.unipd.mtss.RomanPrinter;
 
 public class App 
 {

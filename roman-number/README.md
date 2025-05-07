@@ -1,0 +1,1 @@
+[![CodeQL Advanced](https://github.com/Fly-PD/MTSS-P2-Test/actions/workflows/codeql.yml/badge.svg?branch=main&event=push)](https://github.com/Fly-PD/MTSS-P2-Test/actions/workflows/codeql.yml)
